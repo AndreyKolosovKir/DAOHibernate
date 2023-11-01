@@ -1,12 +1,13 @@
 create schema netology;
 
-CREATE TABLE netology.persons (
-  Name varchar(60),
-  Surname varchar (60),
-  Age varchar (3),
-  PhoneNumber varchar (12),
-  City varchar (50),
-  PRIMARY KEY (Name, Surname, Age)
+CREATE TABLE netology.persons
+(
+    Name        varchar(60),
+    Surname     varchar(60),
+    Age         varchar(3),
+    PhoneNumber varchar(12),
+    City        varchar(50),
+    PRIMARY KEY (Name, Surname, Age)
 );
 
 insert into netology.persons

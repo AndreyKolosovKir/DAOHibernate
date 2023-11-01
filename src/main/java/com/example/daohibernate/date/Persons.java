@@ -13,7 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name = "Persons")
+@Table(name = "Persons", schema = "netology")
 public class Persons {
     @EmbeddedId
     private User user;
